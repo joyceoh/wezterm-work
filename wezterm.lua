@@ -11,10 +11,10 @@ config.font_size = 13
 
 -- Window settings
 config.window_padding = {
-  left = 10,
-  right = 10,
-  top = 10,
-  bottom = 10,
+  left = 0,
+  right = 0,
+  top = 0,
+  bottom = 0,
 }
 
 -- Color scheme (uncomment to use)
@@ -45,7 +45,7 @@ config.background = {
     -- width = '100%',
     -- height = '100%',
     hsb = dimmer,
-    attachment = { Parallax = 0.1 },
+    -- attachment = { Parallax = 0.1 },
   },
   -- Luna overlay fixed at the bottom
   {
@@ -59,12 +59,12 @@ config.background = {
     vertical_align = 'Middle',
     horizontal_align = 'Center',
     hsb = dimmer,
-    attachment =  { Parallax = 0.1 },
+    -- attachment =  { Parallax = 0.1 },
   },
 }
 
---[[ Spaceship background (commented out)
-config.background = {
+-- Spaceship background (commented out)
+--[[ config.background = {
   -- This is the deepest/back-most layer. It will be rendered first
   {
     source = {
