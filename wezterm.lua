@@ -22,7 +22,8 @@ config.window_padding = {
 config.font = wezterm.font 'JetBrains Mono'
 
 -- background
-config.macos_window_background_blur = 20
+-- config.macos_background_opacity = 0.9
+-- config.macos_background_blur = 30
 -- The art is a bit too bright and colorful to be useful as a backdrop
 -- for text, so we're going to dim it down to 10% of its normal brightness
 local dimmer = { brightness = 0.1 }
